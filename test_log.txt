@@ -1,0 +1,27 @@
+NHAT KY KIEM THU GIA DINH
+========================
+
+Du an: Portfolio CV - Tran Viet Anh
+Ngay lap log: 30/10/2026
+Pham vi: index.html, ket-qua.html, form lien he va giao dien responsive
+Moi truong gia dinh: Chrome tren may tinh va dien thoai; mo trang tinh truc tiep
+Luu y: Day la ket qua MO PHONG, khong phai ket qua da chay kiem thu thuc te.
+
+Ma | Truong hop kiem thu                         | Ket qua mong doi                                      | Ket qua gia dinh
+---|----------------------------------------------|-------------------------------------------------------|-----------------
+TC01 | Mo trang portfolio                        | Trang hien thi tieu de va noi dung gioi thieu         | DAT
+TC02 | Bam cac muc menu                           | Trang cuon den dung cac muc noi dung                  | DAT
+TC03 | Hien thi danh sach du an                   | Co 3 the du an, anh va mo ta                           | DAT
+TC04 | Hien thi bang hoc tap                      | Bang co tieu de cot va 2 dong du lieu                  | DAT
+TC05 | Gui form khi de trong cac truong           | Trinh duyet chan gui va bao truong bat buoc            | DAT
+TC06 | Nhap ho ten chi co 1 ky tu                 | Trinh duyet bao ho ten can it nhat 2 ky tu             | DAT
+TC07 | Nhap email sai dinh dang                   | Trinh duyet yeu cau email hop le                       | DAT
+TC08 | Nhap loi nhan ngan hon 10 ky tu            | Trinh duyet yeu cau loi nhan toi thieu 10 ky tu        | DAT
+TC09 | Nhap du thong tin hop le va gui form       | Chuyen den ket-qua.html bang phuong thuc GET           | DAT
+TC10 | Bam "Quay lai lien he" tren trang ket qua  | Tro ve muc lien he tren index.html                     | DAT
+TC11 | Xem trang tren man hinh hep                 | Noi dung co the doc va bo cuc thich ung voi man hinh   | DAT
+
+Tong ket gia dinh: 11/11 truong hop dat.
+Ghi chu: Form chi thuc hanh kiem tra du lieu HTML5 va chuyen trang;
+khong gui email, khong luu du lieu len may chu. Du lieu GET co the
+hien thi tren thanh dia chi, khong nhap thong tin nhay cam.
