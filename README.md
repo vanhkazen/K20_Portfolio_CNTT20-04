@@ -1,73 +1,101 @@
-# Portfolio CV - Trần Việt Anh
+# Portfolio CV – Trần Việt Anh
 
-Website portfolio cá nhân của **Trần Việt Anh**, sinh viên ngành Công nghệ Thông tin, lớp CNTT 20-04. Sản phẩm giới thiệu thông tin cá nhân, kỹ năng đang học, các bài tập/dự án, quá trình học tập và thông tin liên hệ. Website gồm trang portfolio chính và trang kết quả thực hành form liên hệ; giao diện được xây dựng bằng HTML và CSS, có bố cục responsive.
+## 1. Sản phẩm này là gì?
 
-## Hồ sơ và minh chứng
+Portfolio CV cá nhân của Trần Việt Anh, sinh viên ngành Công nghệ Thông tin, lớp CNTT 20-04. Website giới thiệu thông tin cá nhân, kỹ năng lập trình đang học, các dự án thực hành, quá trình học tập và thông tin liên hệ. Sản phẩm được xây dựng bằng HTML5 và CSS3.
 
-- **Tác giả:** [Trần Việt Anh](https://github.com/vanhkazen)
-- **Repository:** [vanhkazen/K20_Portfolio_CNTT20-04](https://github.com/vanhkazen/K20_Portfolio_CNTT20-04)
-- **Website GitHub Pages:** [Mở portfolio](https://vanhkazen.github.io/K20_Portfolio_CNTT20-04/)
-- **Trang kết quả form:** [Mở trang kết quả](https://vanhkazen.github.io/K20_Portfolio_CNTT20-04/ket-qua.html)
-- **Mã nguồn minh chứng:** [Trang chính](https://github.com/vanhkazen/K20_Portfolio_CNTT20-04/blob/main/index.html), [trang kết quả](https://github.com/vanhkazen/K20_Portfolio_CNTT20-04/blob/main/ket-qua.html), [CSS](https://github.com/vanhkazen/K20_Portfolio_CNTT20-04/blob/main/css/style.css)
+## 2. Demo
 
-## Nội dung và công nghệ
+- **Website chính:** https://vanhkazen.github.io/K20_Portfolio_CNTT20-04/
+- **Trang kết quả form:** https://vanhkazen.github.io/K20_Portfolio_CNTT20-04/ket-qua.html
+- **Repository:** https://github.com/vanhkazen/K20_Portfolio_CNTT20-04
 
-- Giới thiệu cá nhân và định hướng học tập.
-- Kỹ năng C++ cơ bản, HTML5, CSS3 và các dự án/bài tập học tập.
-- Bảng thông tin học tập và thông tin liên hệ.
-- Form thực hành kiểm tra dữ liệu HTML5.
-- HTML5, CSS3 và Google Fonts (Inter); không dùng framework hay thư viện JavaScript.
+## 3. Tính năng
 
-## Nguồn xuất bản
+- Giới thiệu thông tin cá nhân và định hướng học tập.
+- Trình bày các kỹ năng C++, HTML5, CSS3 và sử dụng Visual Studio Code.
+- Hiển thị ba dự án học tập với hình ảnh minh họa.
+- Bảng thông tin học tập theo học kỳ.
+- Cung cấp email và liên kết GitHub.
+- Form liên hệ có kiểm tra dữ liệu bằng HTML5.
+- Bố cục responsive hỗ trợ các kích thước màn hình khác nhau.
 
-Website được xuất bản bằng **GitHub Pages** từ repository ở trên. Mã nguồn website là các tệp tĩnh trong repository; trang Pages hiện được truy cập tại `https://vanhkazen.github.io/K20_Portfolio_CNTT20-04/`.
+## 4. Công nghệ sử dụng
 
-## Chạy local
+- HTML5: xây dựng cấu trúc và nội dung website.
+- CSS3: thiết kế giao diện và bố cục responsive.
+- Google Fonts – Inter: hiển thị kiểu chữ.
+- Git và GitHub: quản lý mã nguồn.
+- GitHub Pages: xuất bản website.
 
-Website không cần cài package hay biên dịch. Có thể clone repository và mở trực tiếp `index.html` bằng trình duyệt:
+Website không sử dụng framework hoặc thư viện JavaScript.
 
-```bash
-git clone https://github.com/vanhkazen/K20_Portfolio_CNTT20-04.git
-cd K20_Portfolio_CNTT20-04
-```
+## 5. Cách mở website
 
-Hoặc chạy một máy chủ tĩnh để kiểm tra các đường dẫn như khi xuất bản:
+### Truy cập bản trực tuyến
+
+1. Mở trình duyệt Google Chrome hoặc Microsoft Edge.
+2. Nhập địa chỉ https://vanhkazen.github.io/K20_Portfolio_CNTT20-04/ vào thanh địa chỉ.
+3. Nhấn Enter để truy cập website.
+4. Sử dụng menu Giới thiệu, Kỹ năng, Dự án, Học tập và Liên hệ để xem nội dung.
+5. Trong phần Liên hệ, có thể nhập dữ liệu thử vào biểu mẫu và nhấn Gửi lời nhắn để mở trang kết quả.
+
+### Chạy trên máy tính cá nhân
+
+1. Mở repository tại https://github.com/vanhkazen/K20_Portfolio_CNTT20-04.
+2. Nhấn nút Code và chọn Download ZIP hoặc sử dụng Git để clone repository.
+3. Giải nén thư mục dự án nếu tải bằng ZIP.
+4. Mở thư mục dự án bằng Visual Studio Code.
+5. Mở tệp index.html bằng trình duyệt hoặc chạy máy chủ tĩnh bằng Terminal:
 
 ```bash
 python -m http.server 8000
 ```
 
-Sau đó mở `http://localhost:8000/`. Dừng máy chủ bằng `Ctrl+C`. Nếu dùng VS Code, có thể mở thư mục dự án và dùng tiện ích Live Server thay cho lệnh trên.
+6. Mở trình duyệt và truy cập http://localhost:8000/.
 
-## Cấu trúc thư mục
+7. Nhấn Ctrl+C trong Terminal để dừng máy chủ sau khi kiểm tra.
+
+## 6. Cấu trúc thư mục
 
 ```text
-.
-├── index.html                                      # Portfolio chính
-├── ket-qua.html                                    # Trang kết quả form liên hệ
-├── css/
-│   └── style.css                                   # Giao diện và responsive
+K20_Portfolio_CNTT20-04/
 ├── assets/
-│   ├── 791975572_1060704449904978_7434436045093909714_n.jpg  # Ảnh đại diện
-│   ├── du-an-1.svg                                 # Minh họa dự án C++
-│   ├── du-an-2.svg                                 # Minh họa portfolio
-│   └── du-an-3.svg                                 # Minh họa website thực hành
-├── README.md                                       # Hướng dẫn dự án
-├── RELEASE_NOTES.md                                # Ghi chú phát hành
-└── AI_LOG.md                                       # Nhật ký kiểm tra
+│   ├── ảnh đại diện
+│   ├── du-an-1.svg
+│   ├── du-an-2.svg
+│   └── du-an-3.svg
+├── css/
+│   └── style.css
+├── docs/
+│   ├── AI_LOG.md
+│   ├── evidence-index.md
+│   └── evidence/
+├── index.html
+├── ket-qua.html
+├── README.md
+├── CHANGELOG.md
+└── RELEASE_NOTES.md
 ```
 
-## Cách kiểm tra trang và chức năng chính
+## 7. Kết quả kiểm tra
 
-1. Mở [website đã xuất bản](https://vanhkazen.github.io/K20_Portfolio_CNTT20-04/) hoặc `http://localhost:8000/`.
-2. Dùng menu **Giới thiệu**, **Kỹ năng**, **Dự án**, **Học tập**, **Liên hệ** để kiểm tra các phần trên trang chính.
-3. Kiểm tra ảnh đại diện và ba hình minh họa dự án hiển thị; thay đổi chiều rộng cửa sổ hoặc dùng chế độ thiết bị di động để kiểm tra bố cục responsive.
-4. Trong phần **Liên hệ**, thử gửi form để kiểm tra các trường bắt buộc, định dạng email, độ dài họ tên và lời nhắn. Khi hợp lệ, form chuyển đến `ket-qua.html`; dùng liên kết **Quay lại liên hệ** để trở về.
-5. Có thể mở trực tiếp [trang kết quả](https://vanhkazen.github.io/K20_Portfolio_CNTT20-04/ket-qua.html) để xác nhận trang tải được và menu điều hướng về đúng các mục của trang chính.
-6. Kiểm tra các liên kết hồ sơ GitHub, repository và email ở phần liên hệ.
+Một số nội dung đã được kiểm tra và ghi nhận trong nhật ký:
 
-Nhật ký kiểm tra trong thư mục dự án (`AI_LOG.md`) ghi nhận kiểm tra đường dẫn CSS và phản hồi của các trang trên GitHub Pages; hiển thị trực tiếp trên nhiều kích thước màn hình cần được xác nhận bằng trình duyệt theo checklist trên.
+- Đường dẫn CSS trong trang ket-qua.html.
+- Tệp CSS trên GitHub Pages trả về mã HTTP 200.
+- Trang ket-qua.html trên GitHub Pages trả về mã HTTP 200.
+- Trang chính trả về mã HTTP 304 khi tải lại, là phản hồi bộ nhớ đệm bình thường.
 
-## Lưu ý về form
+Bảng kiểm thử và minh chứng chi tiết được lưu tại [docs/evidence-index.md](docs/evidence-index.md).
 
-Form dùng phương thức `GET` để thực hành kiểm tra dữ liệu HTML5 và chuyển đến trang kết quả. Form **không gửi email và không lưu dữ liệu lên máy chủ**. Giá trị nhập có thể xuất hiện trên URL, vì vậy chỉ dùng dữ liệu thử, không nhập thông tin nhạy cảm.
+## 8. Hạn chế và nội dung chưa kiểm tra
+
+- Ba dự án hiện sử dụng hình ảnh minh họa; các liên kết GitHub của từng dự án vẫn cần được cập nhật.
+- Biểu mẫu liên hệ chỉ phục vụ thực hành kiểm tra dữ liệu HTML5, chưa gửi email và không lưu dữ liệu lên máy chủ.
+- Chưa xác nhận đầy đủ giao diện trên các thiết bị di động thực tế.
+- Các nội dung kiểm thử bổ sung sẽ được cập nhật trong bảng minh chứng khi hoàn thành.
+
+## 9. Khai báo sử dụng AI
+
+Nhật ký sử dụng AI trong quá trình thực hiện và hoàn thiện Lab 8 được lưu tại [docs/AI_LOG.md](docs/AI_LOG.md).
